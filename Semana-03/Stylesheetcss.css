@@ -28,4 +28,11 @@ body{
         text-align: center;
         text-decoration: solid;
     }
+    aside {
+        width: 20%;
+        background-color: red;
+        float: left;
+        height: 850px;
+        display: inline;
+    }
     

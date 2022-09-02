@@ -1,0 +1,76 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    h1 {
+        background-color: red;
+        color: white;
+        margin-top: 86px;
+        width: 686px;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        margin-left: 500px;
+        
+    }
+    .Firsth5 {
+        color: black;
+        font-style: oblique;
+        padding: 90px; 
+        margin-left: 593px; 
+    }
+    .Homepa {
+        display: inline;
+        margin-left: 500px;
+        margin right: ;
+        
+    }
+    .firstp {
+        display: inline;
+        text-align: center;
+        text-decoration: solid;
+        height: 124px;
+        width: 342px;
+        background-color: gray;
+        margin-left: 1000px;
+    }
+    aside {
+        width: 20%;
+        background-color: red;
+        padding: 1%;
+        float: left;
+        height: 983px;
+        width: 277px;
+        position: fixed;
+        display: inline;
+        top: 0px;
+        margin-top: 0%;
+    }
+    .center-nav1 {
+        align-items: center;
+        display: block;
+        padding-top: 80px;
+        padding-left: 60px;
+        color: white;
+    }
+    .center-nav2{
+        align-items: center;
+        display: block;
+        padding-top: 200px;
+        padding-left: 60px;
+        color: white;
+    }
+    .center-nav3{ 
+        align-items: center;
+        display: block;
+        padding-top: 30px;
+        padding-left: 60px;
+        color: white;
+    }
+    .center-nav4{ 
+        align-items: center;
+        display: block;
+        padding-top: 300px;
+        padding-left: 60px;
+        color: white;
+    }
