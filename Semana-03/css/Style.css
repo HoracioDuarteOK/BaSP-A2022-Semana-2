@@ -11,7 +11,6 @@ body{
         padding: 20px;
         text-align: center;
         margin-left: 500px;
-        
     }
     .Firsth5 {
         color: black;
@@ -19,20 +18,22 @@ body{
         padding: 90px; 
         margin-left: 593px; 
     }
-    .Homepa {
+    .Homepa > img {
         display: inline;
         margin-left: 500px;
-        margin right: ;
-        
+        background-color: red
     }
-    .firstp {
+    .Homepa > p {
         display: inline;
-        text-align: center;
-        text-decoration: solid;
         height: 124px;
         width: 342px;
-        background-color: gray;
-        margin-left: 1000px;
+        padding-top: 100px;
+
+        float: right;
+        margin-right: 300px;
+        font-weight: bold;
+        text-align: left;
+        
     }
     aside {
         width: 20%;
@@ -46,31 +47,51 @@ body{
         top: 0px;
         margin-top: 0%;
     }
+    aside P {
+        display: inline;
+        padding-left: 10px;
+    }
+    aside a {
+        padding-top: 25%;
+        
+    }
     .center-nav1 {
-        align-items: center;
         display: block;
         padding-top: 80px;
         padding-left: 60px;
         color: white;
+        text-decoration: underline;
+        
     }
     .center-nav2{
-        align-items: center;
         display: block;
         padding-top: 200px;
         padding-left: 60px;
         color: white;
+        text-decoration: none;
     }
     .center-nav3{ 
-        align-items: center;
         display: block;
         padding-top: 30px;
         padding-left: 60px;
         color: white;
+        text-decoration: none;
     }
     .center-nav4{ 
-        align-items: center;
         display: block;
         padding-top: 300px;
         padding-left: 60px;
         color: white;
+        text-decoration: none;
     }
+    h2 {
+        background-color: red;
+        color: white;
+        margin-top: 330px;
+        width: 600px;
+        padding: 20px;
+        text-align: center;
+        margin-left: 550px;
+        
+    }
+    
