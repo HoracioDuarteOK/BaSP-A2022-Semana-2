@@ -28,7 +28,6 @@ body{
         height: 124px;
         width: 342px;
         padding-top: 100px;
-
         float: right;
         margin-right: 300px;
         font-weight: bold;
@@ -46,6 +45,7 @@ body{
         display: inline;
         top: 0px;
         margin-top: 0%;
+        margin-left: 0%;
     }
     aside P {
         display: inline;
@@ -92,6 +92,116 @@ body{
         padding: 20px;
         text-align: center;
         margin-left: 550px;
-        
     }
+    .Second-page {
+        display: inline;
+    }
+    .page-two {
+       display: inline;
+    }
+    .page-two > img {
+        display: inline ;
+        padding-left: 450px;
+        padding-right: 50px;
+        padding-top: 350px; 
+        position: relative;      
+    }
+    .problem{
+        margin-left: -120px;
+    }
+    .page-two > a{
+        color: black;
+        font-size: 30px;
+        text-decoration: none;
+        font-weight: bold;
+        vertical-align: 70px;
+    }
+    .rombo1 {
+        width: 90px; 
+        height: 90px; 
+        background-color: red;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: absolute;
+        display: inline;
+        margin-left: 430px;;
+        border-radius: 8px;
+        margin-top: 340px;
+        
+
+    }
+    .rombo2 {
+        width: 90px; 
+        height: 90px; 
+        background-color: red;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: absolute;
+        display: inline;
+        margin-left: 430px;;
+        border-radius: 8px;
+        margin-top: 340px;
+    }
+    .rombo3 {
+        width: 90px; 
+        height: 90px; 
+        background-color: red;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: absolute;
+        display: inline;
+        margin-left: -995px;;
+        margin-top: 760px;
+        border-radius: 8px;
+    }
+    .rombo4 {
+        width: 90px; 
+        height: 90px; 
+        background-color: red;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: absolute;
+        display: inline;
+        margin-left: 310px;
+        margin-top: 340px;
+        border-radius: 8px;
+    }
+    .page-t > img{ 
+        margin-left: 450px;
+        display: inline;
+       
+    }
+    .page-t > a{
+        width: 211px;
+        height: 96px;
+        display: inline;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        size: 20px;
+        vertical-align: top;
+
+    } 
+    .page-t > p{
+        width: 380px;
+        height: 82px;
+        display: inline;
+        text-align: center;       
+    } 
+    .page-t {
+        margin-right: 300px;
+    }
+
     
