@@ -1,6 +1,5 @@
 body{
     background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
 }
     h1 {
         background-color: red;
@@ -32,6 +31,7 @@ body{
         margin-right: 300px;
         font-weight: bold;
         text-align: left;
+        
         
     }
     aside {
@@ -92,6 +92,7 @@ body{
         padding: 20px;
         text-align: center;
         margin-left: 550px;
+        margin-bottom: 0%;
     }
     .Second-page {
         display: inline;
@@ -159,7 +160,7 @@ body{
         transform: rotate(45deg);
         position: absolute;
         display: inline;
-        margin-left: -995px;;
+        margin-left: -980px;;
         margin-top: 760px;
         border-radius: 8px;
     }
@@ -179,9 +180,10 @@ body{
         border-radius: 8px;
     }
     .page-t > img{ 
-        margin-left: 450px;
         display: inline;
-       
+        margin-top: 200px;
+        position: relative;  
+        padding-left: 300px;    
     }
     .page-t > a{
         width: 211px;
@@ -190,18 +192,166 @@ body{
         text-decoration: none;
         font-weight: bold;
         color: black;
-        size: 20px;
-        vertical-align: top;
+        font-size: 30px;
+        vertical-align: 90px;
+        padding-left: 100px;
 
     } 
     .page-t > p{
         width: 380px;
-        height: 82px;
+        height: 82px;  
+        color: black; 
         display: inline;
-        text-align: center;       
+        text-align: center;
+        position:absolute;
+        margin-top: 225px;
+        margin-left: -300px;
     } 
     .page-t {
-        margin-right: 300px;
+        padding: 100px;
     }
+    #left {
+        margin-left: -190px;
+    }
+    #left-two {
+        margin-left: -450px;
 
-    
+    }
+    .info-request{
+        background-color: red;
+        padding: 0%;
+        display: inline;
+        
+    }
+    .form-register {
+        width: 439;
+        background-color: #f5f5f5;
+        padding: 10px;
+        margin: auto;
+        margin-top: 0px;
+        margin-right: 585px;
+        margin-left: 550px;
+        top: 0%;
+        height: 500px;
+        font-weight: bold;
+    }
+    .block {
+        display: block;
+        padding-left: 100px;
+        padding-bottom: 20px;
+        padding-right: 100px;
+        
+    }
+    #selector {
+        display: block;
+        margin-left: 200px;
+    }
+    #rigth{
+        display: inline;
+        margin-left: 100px;
+        float: left;
+        margin-top: 20px;
+    }
+    #selector-two {
+        display: block;
+        margin-left: 200px;
+        width: 255px;
+        height: 220px;
+        }
+    #botom {
+        background-color: red;
+        height: 35px;
+        width: 255px;
+        border-radius: 6px;
+        border-color: red;
+        margin-left: 200px;
+        margin-top: 10px;       
+    }
+    #block-2 {
+        margin-left: 50px;
+        }
+    .back {
+        height: 830px;
+        width: 1225px;
+        background-image: url(../images/Picture\ clock.png);
+        margin-left: 400px;
+        margin-top: 10px;
+        position: absolute;
+        }
+    .cuadrado1 {
+        width: 340px; 
+        height: 340px; 
+        background: gray; 
+        opacity: 60%; 
+        margin-top: -50px;
+        border-radius: 20px;
+        display: inline;
+        position: absolute;
+        }
+    .cuadrado2 {
+        width: 340px; 
+        height: 340px; 
+        background: gray; 
+        opacity: 60%; 
+        margin-left: 400px;
+        margin-top: -170px;
+        border-radius: 20px;
+        display: inline;
+        position: absolute;
+        }
+    .cuadrado3 {
+        width: 340px; 
+        height: 340px; 
+        background: gray; 
+        opacity: 60%; 
+        margin-left: 800px;
+        margin-top: -270px;
+        border-radius: 20px;
+        display: inline;
+        position: absolute;
+        }
+    .cuadrado4 {
+        width: 340px; 
+        height: 340px; 
+        background: gray; 
+        opacity: 60%; 
+        margin-left: 0px;
+        margin-top: 50px;
+        border-radius: 20px;
+        display: inline;
+        position: absolute;
+        }
+    .cuadrado5 {
+        width: 340px; 
+        height: 340px; 
+        background: gray; 
+        opacity: 60%; 
+        margin-left: 400px;
+        margin-top: -5px;
+        border-radius: 20px;
+        display: inline;
+        position: absolute;
+        }
+    .cuadrado6 {
+        width: 340px; 
+        height: 340px; 
+        background: gray; 
+        opacity: 60%; 
+        margin-left: 800px;
+        margin-top: -100px;
+        border-radius: 20px;
+        display: inline;
+        position: absolute;
+        }
+        #der {
+            margin-left: 430px;
+        }
+    .ano{ 
+        font-size: large;
+        display: inline;
+    }
+    .phr{
+        width: 270px;
+        height: 270px;
+
+    }
