@@ -30,9 +30,7 @@ body{
         float: right;
         margin-right: 300px;
         font-weight: bold;
-        text-align: left;
-        
-        
+        text-align: left;              
     }
     aside {
         width: 20%;
@@ -52,8 +50,7 @@ body{
         padding-left: 10px;
     }
     aside a {
-        padding-top: 25%;
-        
+        padding-top: 25%;   
     }
     .center-nav1 {
         display: block;
@@ -61,7 +58,6 @@ body{
         padding-left: 60px;
         color: white;
         text-decoration: underline double;
-        
     }
     .center-nav2{
         display: block;
@@ -130,9 +126,7 @@ body{
         display: inline;
         margin-left: 430px;;
         border-radius: 8px;
-        margin-top: 340px;
-        
-
+        margin-top: 340px;     
     }
     .rombo2 {
         width: 90px; 
@@ -160,7 +154,7 @@ body{
         transform: rotate(45deg);
         position: absolute;
         display: inline;
-        margin-left: -980px;;
+        margin-left: -960px;;
         margin-top: 760px;
         border-radius: 8px;
     }
@@ -195,7 +189,6 @@ body{
         font-size: 30px;
         vertical-align: 90px;
         padding-left: 100px;
-
     } 
     .page-t > p{
         width: 380px;
@@ -215,13 +208,11 @@ body{
     }
     #left-two {
         margin-left: -450px;
-
     }
     .info-request{
         background-color: red;
         padding: 0%;
         display: inline;
-        
     }
     .form-register {
         width: 439;
@@ -240,7 +231,6 @@ body{
         padding-left: 100px;
         padding-bottom: 20px;
         padding-right: 100px;
-        
     }
     #selector {
         display: block;
@@ -350,7 +340,7 @@ body{
         display: inline;
         position: absolute;
         }
-        #der {
+    #der {
         margin-left: 430px;
         }
     .ano{ 
