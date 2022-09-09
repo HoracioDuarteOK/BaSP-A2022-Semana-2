@@ -1,0 +1,50 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+main > h5 {
+    color: black;
+    font-style: oblique;
+    padding: 10%; 
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+}
+.Homepa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    }
+.Homepa > p {
+    width: 70%;
+    padding:  30%;
+}
+.Title2 {
+    background-color: red;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.page-two {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
+    align-content: center;
+    
+}
+.item {
+    background-color: yellow;
+}
+.item {
+    vertical-align: middle;
+    width: 40%;
+    text-decoration: none;
+}
+
+
+
