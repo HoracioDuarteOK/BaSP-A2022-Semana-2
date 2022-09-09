@@ -1,10 +1,14 @@
 # Trackgenix
-
+## A tool designed to improve productivity and work managment
 Software goal: 
 
-        Provide the possibility of creating new projects and being able to assign hours, tasks and roles.
+        This product offers the possibility to manage the time registration of each employee in your company,as well as being able to designate roles and projects to fulfill in a certain time
 
-Steps to follow
+## Usage
+        Once logged in, you can view the project table and be able to perform different actions such as adding, designating, etc.
+        ![Projects](./Semana-03/images/Proyect.png)
+## Steps to follow
+
 
 ``` 
     1- Open BASP-A2022-SEMANA-2
@@ -12,8 +16,17 @@ Steps to follow
 
 Week 2 
 ``` 
-        General structure in html
+        General structure in html.
 
 Week 3
 ``` 
-        Apply the first concepts of css
+        Apply the first concepts of css.
+
+Week 4
+```     Introduce Flexbox.
+
+
+
+##      Authors and acknowledgment
+ 
+My name is Horacio Duarte and this is possible by the Radium Rocket team.
