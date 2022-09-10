@@ -26,24 +26,30 @@ main > h5 {
     color: white;
     width: 100%;
     text-align: center;
+    justify-self: start;
+    padding: 5%;
 }
+
 .page-two {
+    height: 100%;
     display: flex;
-    flex-direction: row;
-    background-color: green;
+    flex-direction: column;
     flex-wrap: wrap;
+    align-content: center;  
     justify-content: space-around;
-    text-decoration: none;
-    align-content: center;
-    
 }
 .item {
-    background-color: yellow;
-}
-.item {
-    vertical-align: middle;
-    width: 40%;
+    display: flex;
+    align-items: center;
     text-decoration: none;
+} 
+.item > a {
+    text-decoration: none;
+    color: black;
+    padding-left: 10%;
+} 
+.Page2 {
+    height: 100vh;
 }
 
 
