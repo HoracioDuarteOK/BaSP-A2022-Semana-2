@@ -94,4 +94,63 @@ main > h5 {
     text-decoration: none;
     color: black;
 }
+.Page4 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+    align-items: center;     
+}
+.form-register{
+    display: flex;
+    
+    background-color: lightgray;  
+    height: 60vh;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+.Page4-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: aqua;
+}
+.Page4-rigth{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: brown;
+}
+.Page5 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  
+    align-items: center;     
+    background-image: url(../images/fondo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: start;
+    
+}
+.cuadrado {
+    width: 33%;
+    height: 15vh;
+    background-color: black;
+    background-position: bottom;
+    opacity: 50%;
+    border-radius: 5%;
+}
+.Page5-section {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.Page5-article {
+    display: flex;
+    
+    width: 30%;
+}
 
