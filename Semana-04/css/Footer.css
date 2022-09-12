@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    background-color: red;
+    height: 10vh;
+    flex-direction: column;
+    padding-top: 5%;
+}
+.Footer1{
+    display: flex;
+}
+.Footer-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer > p {
+    color: white;
+    text-align: center;
+}

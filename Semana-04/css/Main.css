@@ -103,54 +103,147 @@ main > h5 {
 }
 .form-register{
     display: flex;
-    
-    background-color: lightgray;  
-    height: 60vh;
+    background-color: #e5e5e5; 
+    height: 70vh;
     width: 90%;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    
 }
-.Page4-left{
+.Page4-label1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30%;  
+    padding: 10%;     
+}
+.Page4-label2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30%;       
+}
+.Page4-label3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10%; 
+    padding: 10%;
+    width: 150%;
+}
+.Page3-contact{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    background-color: aqua;
+    justify-content: start
 }
-.Page4-rigth{
+.Page4-start{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: brown;
+}
+.Buttom {
+    size: 20%;
+    background-color: red;
+    color: white;
+    padding: 3% 32%;
+    text-align: center;
+    justify-items: end;
+    display: flex;
+}
+.End {
+    display: flex;
+    justify-content: flex-end;
 }
 .Page5 {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;  
-    align-items: center;     
-    background-image: url(../images/fondo.png);
-    background-size: contain;
+    align-items: center;
+}
+.Page5-section1 {
+    display: flex;
+    flex-direction: column; 
+    background-image: url(../images/Picture\ clock.png);
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    background-position: start;
-    
+    width: 110%;
+    justify-content: space-around;
 }
-.cuadrado {
-    width: 33%;
-    height: 15vh;
-    background-color: black;
-    background-position: bottom;
-    opacity: 50%;
-    border-radius: 5%;
-}
-.Page5-section {
+.Page5-section2 {
     display: flex;
-    flex-wrap: wrap;
-   
+    gap: 1%;
+    justify-content: center;
+    
 }
 .Page5-article {
-    display: flex;
-    
-    width: 30%;
+    display: flex;    
+    flex-direction: column;  
+    align-items: center;
+    flex: 2;
+    height: 90%;   
 }
+.Page5-article > p {
+    background-color: #00000080;
+    justify-self: center;
+    border-radius: 5%;  
+    font-size: small;
+    min-width: 100%;
+    min-height: 100%;
+}
+.Page6 {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    align-items: center;
+
+}
+.Pinkcolor{
+    display: flex;
+    width: 90%;
+    height: 30%;
+    background-color: #ff5454;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.Page6-info {
+    display: flex;
+    flex-direction: row;
+    margin: 10%;
+    gap: 10%;
+}
+.Page7 {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  
+    align-items: center;
+}
+.Page7-article {
+    display: flex;
+    flex-direction: column;
+}
+.Page7-box1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+}
+.Page7-box1 > h3 { 
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+.Page7-box2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+ul {
+    list-style: circle;
+}
+
+
 
