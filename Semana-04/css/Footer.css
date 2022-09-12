@@ -4,6 +4,8 @@ footer{
     height: 10vh;
     flex-direction: column;
     padding-top: 5%;
+    justify-items: center;
+    margin-bottom: 0%;
 }
 .Footer1{
     display: flex;
@@ -16,4 +18,5 @@ footer{
 footer > p {
     color: white;
     text-align: center;
+    margin-top: 3%;
 }
