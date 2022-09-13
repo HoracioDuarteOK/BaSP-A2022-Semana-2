@@ -9,14 +9,13 @@ main{
     text-align: center;
     font-size: 12px;
     display: flex;
-    margin-top: 30%;
+    margin-top: 30px;
 }
 .Page1 {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;  
-    align-content: center;
     align-items: center;
 }
 .Homepa {
@@ -26,7 +25,7 @@ main{
     align-content: center;
     text-align: center;
     font-style: oblique;
-    padding: 10%;
+    padding: 5%;
     width: 50%;
     margin-top: 40%;
     margin-bottom: 40%
@@ -37,9 +36,43 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: -40%;
-    
+    margin-bottom: -40%;    
 }
+.Page1-div{
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 1024px){
+    .Firsth5 {
+        font-size: 20px;
+        margin-bottom: 10%;
+        margin-left: 10%;
+    }
+    .Page1  {        
+        display: flex;
+        flex-direction: column;  
+        justify-content: flex-start;
+        align-items: center;
+        height: 100vh;
+    }    
+    .Page1-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: flex-start;
+        height: 25vh;
+        width: 70%;
+        margin-left: 20%;
+    }
+    .Homepa {
+        font-size: 20px;
+        display: flex;
+        margin-bottom: none;
+        margin-top: 0%;
+        margin-bottom: 0%;            
+        }
+    }
 .Title2 {
     background-color: red;
     color: white;
@@ -55,7 +88,7 @@ main{
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;  
-    justify-content: space-around;
+    justify-content: space-around;  
 }
 .item {
     display: flex;
@@ -70,14 +103,35 @@ main{
     width: 200px;
 } 
 .Page2 {
-    height: 100vh;    
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (min-width: 1024px) {
+    .Title2 {
+        font-size: 28px;
+        width: 40%;
+    }
+    .page-two {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 60%;
+        align-content: space-around;
+        margin-left: 8%;
+    }
+    .item {
+        font-size: 28px;
+        width: 50%;
+    }
 }
 .Page3 {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;   
-     
+    justify-content: space-around;
+    align-items: center;   
 }
 #all-a { 
     font-weight: bold;
@@ -172,8 +226,24 @@ fieldset {
 }
 .End {
     display: flex;
-    
     margin-left: 50%;
+}
+@media screen and (min-width: 1024px) {
+    .form-register {
+        width: 40%;
+        margin-top: 0%;
+        height: 50%
+    }
+    .Page4 {
+        justify-content: flex-start;
+    }
+    .Page4-label1, .Page4-label3  {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .End {
+        width: 70%;
+    }
 }
 .Page5 {
     height: 100vh;
@@ -213,6 +283,21 @@ fieldset {
     min-height: 110%;
     color: white;
 }
+@media screen and (min-width: 1024px) {
+    .Page5-section2 {
+        width: 80%;
+        height: 35%;
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+    }
+    .Page5-section1 {
+        align-items: flex-end;
+    }
+    .Page5-article > p {
+        font-size: 20px;               
+    }
+}
 .Page6 {
     height: 100vh;
     display: flex;
@@ -232,7 +317,6 @@ fieldset {
 .Page6-contact{
     display: flex;
     margin-left: 30%;
-
 }
 .Page6-info {
     display: flex;
@@ -240,13 +324,17 @@ fieldset {
     margin: 10%;
     gap: 10%;
 }
+@media screen and (min-width: 1024px){
+    .Page6{
+        display: none;
+    }
+}
 .Page7 {
-    height: 60vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;  
     align-items: center;
-   
 }
 .Page7-article {
     display: flex;
@@ -270,11 +358,23 @@ fieldset {
     justify-content: space-around;
     height: 10vh;
     width: 25vh;
-    
 }
 ul {
     list-style: circle;
-    
+}
+@media screen and (min-width: 1024px){
+    .Page7{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 10%;
+    }
+    .Page7-box1 > h3 {
+        font-size: 26px;
+    }
+    .Page7-box2 > ul {
+        font-size: 20px;
+    }
 }
 
 
