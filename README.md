@@ -2,11 +2,13 @@
 ## A tool designed to improve productivity and work managment
 Software goal: 
 
-        This product offers the possibility to manage the time registration of each employee in your company,as well as being able to designate roles and projects to fulfill in a certain time
+        This product offers the possibility to manage the time registration of each employee in your company,
+        as well as being able to designate roles and projects to fulfill in a certain time
 
 ## Usage
         Once logged in, you can view the project table and be able to perform different actions such as adding, designating, etc.
         ![Projects](./Semana-03/images/Proyect.png)
+
 ## Steps to follow
 
 
@@ -25,8 +27,13 @@ Week 3
 Week 4
 ```     Introduce Flexbox.
 
+Week 5
+```     Introduce Js, exercises to practice
 
 
-##      Authors and acknowledgment
+
+
+
+##  Authors and acknowledgment
  
 My name is Horacio Duarte and this is possible by the Radium Rocket team.
