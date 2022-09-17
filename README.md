@@ -25,10 +25,12 @@ Week 3
         Apply the first concepts of css.
 
 Week 4
-```     Introduce Flexbox.
+```     
+        Introduce Flexbox.
 
 Week 5
-```     Introduce Js, exercises to practice
+```     
+        Introduce Js, exercises to practice
 
 
 
