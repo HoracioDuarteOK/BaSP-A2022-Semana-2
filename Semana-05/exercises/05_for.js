@@ -4,17 +4,19 @@ console.log('05_for');
 array utilizando un bucle for de JavaScript para mostrar 
 una alerta utilizando cada una de las palabras.*/
 
-/* console.log('-Exercise 5.a');
+console.log('-Exercise 5.a');
 var expensiveCar = ['bmw' , 'audi' , 'nissan' , 'jeep', 'mercedes']
-for (i=0 ; i < expensiveCar.length; i++){
+/* for (i=0 ; i < expensiveCar.length; i++){
     alert(expensiveCar[i])
 } */
 
 /* Al array anterior convertir la primera letra de cada 
 palabra en mayúscula y mostrar una alerta por cada palabra modificada. */
 
-console.log('-Exercise 5.b');
-
+/* console.log('-Exercise 5.b');
+for (a=0 ; a < expensiveCar.length ; a++ ) {
+    alert(expensiveCar[a][0].toUpperCase() + expensiveCar[a].substr(1));
+} */
 
 
 /* Crear una variable llamada “sentence” que tenga un string vacío, 
@@ -23,6 +25,11 @@ cada palabra dentro de la variable sentence. Al final mostrar una única alerta
 con la cadena completa. */
 
 console.log('-Exercise 5.c');
+var sentence = ' ';
+for (b = 0; b < expensiveCar.length; b++) {
+    alert(expensiveCar[b] + sentence);
+}
+
 
 /* Crear una array vacío y con un bucle for de 10 repeticiones. Llenar el array 
 con el número de la repetición, es decir que al final de la ejecución del bucle 
@@ -31,3 +38,4 @@ for debería haber 10 elementos dentro del array, desde el número 0 hasta al n�
  */
 
  console.log('-Exercise 5.d');
+
