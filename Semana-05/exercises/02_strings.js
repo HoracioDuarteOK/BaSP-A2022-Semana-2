@@ -50,15 +50,14 @@ console.log('findSpace: ' , findSpace);
  nuevo string que tenga la primera letra de ambas palabras en mayúscula 
  y las demás letras en minúscula (utilizar indexOf, substring, toUpperCase, toLowerCase y el operador +). */
 
- console.log('-Exercise 2.f');
+console.log('-Exercise 2.f');
 
- var largeWorld = 'congratulations background';
-/*  var newString = largeWorld[0].toUpperCase() + largeWorld.indexOf().toUpperCase() + largeWorld.substring(1);
-console.log('newString: ' + newString); */
+var largeWorld = 'congratulations background';
+var newString1 = largeWorld.indexOf(' ');
+console.log(newString1);
+var newString2 = largeWorld.substring(0,1).toUpperCase();
+newString2 += largeWorld.substring(1,++newString1).toLowerCase();
+newString2 += largeWorld.substring(newString1,++newString1).toUpperCase();
+newString2 += largeWorld.substring(newString1,largeWorld.length).toLowerCase();
+console.log('newString2' , newString2);
 
- var newString = largeWorld.substring(0,1).toUpperCase() + largeWorld.substring(1,largeWorld.indexOf(" ")).toLowerCase() + ' ' 
-         + largeWorld.substring(16,17 ).toUpperCase()  + largeWorld.substring(largeWorld.indexOf("ac"));  
- console.log ('newString : '  , newString);
-
-
- /* largeWorld.toLowerCase(largeWorld.indexOf(" ")) */
