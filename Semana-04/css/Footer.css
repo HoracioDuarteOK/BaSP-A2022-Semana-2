@@ -20,14 +20,14 @@ footer > p {
     text-align: center;
     margin-top: 3%;
 }
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 1024px) {
     footer {
         width: 84%;
         margin-left: 16%;
         justify-content: space-around;
         padding-bottom: 3%;
     }
-    #copy {
+    #Copy {
         font-size: 24px;
     }
 }

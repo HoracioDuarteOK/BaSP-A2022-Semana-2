@@ -43,36 +43,6 @@ main{
     display: flex;
     flex-direction: column;
 }
-@media screen and (min-width: 1024px){
-    .Firsth5 {
-        font-size: 20px;
-        margin-bottom: 10%;
-        margin-left: 10%;
-    }
-    .Page1  {        
-        display: flex;
-        flex-direction: column;  
-        justify-content: flex-start;
-        align-items: center;
-        height: 100vh;
-    }    
-    .Page1-div {
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
-        align-items: flex-start;
-        height: 25vh;
-        width: 70%;
-        margin-left: 20%;
-    }
-    .Homepa {
-        font-size: 20px;
-        display: flex;
-        margin-bottom: none;
-        margin-top: 0%;
-        margin-bottom: 0%;            
-        }
-    }
 .Title2 {
     background-color: red;
     color: white;
@@ -82,7 +52,7 @@ main{
     padding-top: 2%;
     padding-bottom: 2%;
 }
-.page-two {
+.Page-two {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -90,12 +60,12 @@ main{
     align-content: center;  
     justify-content: space-around;  
 }
-.item {
+.Item{
     display: flex;
     align-items: center;
     text-decoration: none;
 } 
-.item > a {
+.Item> a {
     text-decoration: none;
     color: black;
     padding-left: 10%;
@@ -108,23 +78,6 @@ main{
     justify-content: center; 
     flex-direction: column;
     align-items: center;
-}
-@media screen and (min-width: 1024px) {
-    .Title2 {
-        font-size: 28px;
-        width: 40%;
-    }
-    .page-two {
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 60%;
-        align-content: space-around;
-        margin-left: 8%;
-    }
-    .item {
-        font-size: 28px;
-        width: 50%;
-    }
 }
 .Page3 {
     height: 100vh;
@@ -174,7 +127,7 @@ main{
     justify-content: space-around;  
     align-items: center;     
 }
-.form-register{
+.Form-register{
     display: flex;
     background-color: #e5e5e5; 
     height: 70vh;
@@ -228,23 +181,6 @@ fieldset {
     display: flex;
     margin-left: 50%;
 }
-@media screen and (min-width: 1024px) {
-    .form-register {
-        width: 40%;
-        margin-top: 0%;
-        height: 50%
-    }
-    .Page4 {
-        justify-content: flex-start;
-    }
-    .Page4-label1, .Page4-label3  {
-        font-weight: bold;
-        font-size: 20px;
-    }
-    .End {
-        width: 70%;
-    }
-}
 .Page5 {
     height: 100vh;
     display: flex;
@@ -283,21 +219,6 @@ fieldset {
     min-height: 110%;
     color: white;
 }
-@media screen and (min-width: 1024px) {
-    .Page5-section2 {
-        width: 80%;
-        height: 35%;
-        display: flex;
-        align-items: center;
-        font-size: 30px;
-    }
-    .Page5-section1 {
-        align-items: flex-end;
-    }
-    .Page5-article > p {
-        font-size: 20px;               
-    }
-}
 .Page6 {
     height: 100vh;
     display: flex;
@@ -324,16 +245,11 @@ fieldset {
     margin: 10%;
     gap: 10%;
 }
-@media screen and (min-width: 1024px){
-    .Page6{
-        display: none;
-    }
-}
 .Page7 {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;  
+    justify-content: space-around;
     align-items: center;
 }
 .Page7-article {
@@ -374,6 +290,80 @@ ul {
     }
     .Page7-box2 > ul {
         font-size: 20px;
+    }
+    .Firsth5 {
+        font-size: 20px;
+        margin-bottom: 10%;
+        margin-left: 10%;
+    }
+    .Page1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100vh;
+    }    
+    .Page1-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: flex-start;
+        height: 25vh;
+        width: 70%;
+        margin-left: 20%;
+    }
+    .Homepa {
+        font-size: 20px;
+        display: flex;
+        margin-bottom: none;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    .Title2 {
+        font-size: 28px;
+        width: 40%;
+    }
+    .Page-two {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 60%;
+        align-content: space-around;
+        margin-left: 8%;
+    }
+    .Item{
+        font-size: 28px;
+        width: 50%;
+    }
+    .Form-register {
+        width: 40%;
+        margin-top: 0%;
+        height: 50%
+    }
+    .Page4 {
+        justify-content: flex-start;
+    }
+    .Page4-label1, .Page4-label3{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .End {
+        width: 70%;
+    }
+    .Page5-section2 {
+        width: 80%;
+        height: 35%;
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+    }
+    .Page5-section1 {
+        align-items: flex-end;
+    }
+    .Page5-article > p {
+        font-size: 20px; 
+    }
+    .Page6{
+        display: none;
     }
 }
 

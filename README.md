@@ -15,27 +15,28 @@ Software goal:
 ``` 
     1- Open BASP-A2022-SEMANA-2
     2- Run Index.html
-
+``` 
+``` 
 Week 2 
 ``` 
         General structure in html.
-
+``` 
 Week 3
 ``` 
         Apply the first concepts of css.
-
+``` 
 Week 4
 ```     
         Introduce Flexbox.
-
+``` 
 Week 5
 ```     
         Introduce Js, exercises to practice
-
+``` 
 
 
 
 
 ##  Authors and acknowledgment
  
-My name is Horacio Duarte and this is possible by the Radium Rocket team.
+My name is Horacio Duarte and this is possible by the Radium-Rocket team.
