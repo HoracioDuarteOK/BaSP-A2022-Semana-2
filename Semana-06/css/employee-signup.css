@@ -1,0 +1,28 @@
+.Register-form1 {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px 10px lightgrey;
+    width: 92%;
+}
+.Register-label {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-around;
+}
+.Register-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Start-div {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    height: 120%;
+    justify-content: space-around;
+}

@@ -1,0 +1,371 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+.Firsth5 {
+    color: black;
+    font-style: oblique;
+    padding: 10%; 
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    margin-top: 30px;
+}
+.Page1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+    align-items: center;
+}
+.Homepa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-style: oblique;
+    padding: 5%;
+    width: 50%;
+    margin-top: 40%;
+    margin-bottom: 40%
+    }  
+.Homepa1 {
+    width: 50%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -40%;    
+}
+.Page1-div{
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+}
+.Title2 {
+    background-color: red;
+    color: white;
+    width: 100%;
+    text-align: center;
+    justify-self: start;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.Page-two {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;  
+    justify-content: space-around;  
+}
+.Item{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+} 
+.Item> a {
+    text-decoration: none;
+    color: black;
+    padding-left: 10%;
+    font-weight: bold;
+    width: 200px;
+} 
+.Page2 {
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+}
+.Page3 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;   
+}
+#all-a { 
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    justify-content: start;
+    align-self: flex-start;
+    justify-self: end;
+}
+.Page3-icon {
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    align-items: flex-start;
+    margin-left: 20%;
+    margin-right: 20%;   
+}
+.Page3-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Page3-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+}
+.Bold{
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
+.Page4 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+    align-items: center;     
+}
+.Form-register{
+    display: flex;
+    background-color: #e5e5e5; 
+    height: 70vh;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+fieldset {
+    position: flex;
+    margin-left: -20%;
+}
+.Page4-label1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30%;  
+    padding: 10%;     
+}
+.Page4-label2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30%;       
+}
+.Page4-label3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 16%; 
+    padding: 10%;
+    width: 100%;
+}
+.Page3-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: start
+}
+.Page4-start{
+    display: flex;
+}
+.Buttom {
+    size: 20%;
+    background-color: red;
+    color: white;
+    padding: 3% 32%;
+    text-align: center;
+    justify-items: end;
+    display: flex;
+}
+.End {
+    display: flex;
+    margin-left: 50%;
+}
+.Page5 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  
+    align-items: center;
+}
+.Page5-section1 {
+    display: flex;
+    flex-direction: column; 
+    background-image: url(../images/Picture\ clock.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-around;
+}
+.Page5-section2 {
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+}
+.Page5-article {
+    display: flex;    
+    flex-direction: column;  
+    align-items: center;
+    flex: 2;
+    height: 90%;   
+}
+.Page5-article > p {
+    background-color: #00000080;
+    justify-self: center;
+    border-radius: 8%;  
+    font-size: small;
+    min-width: 100%;
+    min-height: 110%;
+    color: white;
+}
+.Page6 {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    align-items: center;
+}
+.Pinkcolor{
+    display: flex;
+    width: 90%;
+    height: 30%;
+    background-color: #ff5454;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.Page6-contact{
+    display: flex;
+    margin-left: 30%;
+}
+.Page6-info {
+    display: flex;
+    flex-direction: row;
+    margin: 10%;
+    gap: 10%;
+}
+.Page7 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.Page7-article {
+    display: flex;
+    flex-direction: column;
+}
+.Page7-box1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+}
+.Page7-box1 > h3 { 
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+.Page7-box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    width: 25vh;
+}
+ul {
+    list-style: circle;
+}
+@media screen and (min-width: 1024px){
+    .Page7{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 10%;
+    }
+    .Page7-box1 > h3 {
+        font-size: 26px;
+    }
+    .Page7-box2 > ul {
+        font-size: 20px;
+    }
+    .Firsth5 {
+        font-size: 20px;
+        margin-bottom: 10%;
+        margin-left: 10%;
+    }
+    .Page1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100vh;
+    }    
+    .Page1-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: flex-start;
+        height: 25vh;
+        width: 70%;
+        margin-left: 20%;
+    }
+    .Homepa {
+        font-size: 20px;
+        display: flex;
+        margin-bottom: none;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    .Title2 {
+        font-size: 28px;
+        width: 40%;
+    }
+    .Page-two {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 60%;
+        align-content: space-around;
+        margin-left: 8%;
+    }
+    .Item{
+        font-size: 28px;
+        width: 50%;
+    }
+    .Form-register {
+        width: 40%;
+        margin-top: 0%;
+        height: 50%
+    }
+    .Page4 {
+        justify-content: flex-start;
+    }
+    .Page4-label1, .Page4-label3{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .End {
+        width: 70%;
+    }
+    .Page5-section2 {
+        width: 80%;
+        height: 35%;
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+    }
+    .Page5-section1 {
+        align-items: flex-end;
+    }
+    .Page5-article > p {
+        font-size: 20px; 
+    }
+    .Page6{
+        display: none;
+    }
+}
+
+
+
