@@ -72,3 +72,12 @@
     height: 4vh;
     border: none;
 }
+.Red-decoration {
+    text-decoration: dashed red;
+}
+.Green-border {
+    border: 3px solid green;
+}
+.Red-border {
+    border: 3px solid red;
+}
