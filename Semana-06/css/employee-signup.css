@@ -1,7 +1,7 @@
 .Register-form1 {
     display: flex;
     flex-direction: column;
-    height: 60vh;
+    height: 65vh;
     align-items: center;
     justify-content: space-around;
     box-shadow: 10px 10px 10px 10px lightgrey;
@@ -25,4 +25,20 @@
     align-content: space-around;
     height: 120%;
     justify-content: space-around;
+}
+.Button-register{
+    color: white;
+    background-color: red;
+    border: none;
+    width: 40vh;
+    height: 5vh;
+}
+.Red-decoration {
+    text-decoration: dashed red;
+}
+.Green-border {
+    border: 3px solid green;
+}
+.Red-border {
+    border: 3px solid red;
 }
