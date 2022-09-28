@@ -1,4 +1,5 @@
 window.onload = function(){
+    
 //Var
 var userName = document.getElementById("username");
 var password = document.getElementById("Password");
