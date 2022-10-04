@@ -1,0 +1,116 @@
+.Titlelogin {
+    background-color: red;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 10vh; 
+    align-items: center; 
+    top: 0;  
+}
+.Titlelogin > h2 {
+    font-size: 60px;
+    color: white;
+}
+.Section-form {
+    height: 40vh;
+    width: 32vh;
+    box-shadow: 10px 10px 10px 10px lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Page-login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90vh;
+}
+.Section1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    height: 15vh;
+    justify-content: space-around
+   
+}
+.Section2 {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+.H6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.H6 > h6 {
+    color: black;
+    font-size: 30px;
+}
+.Movetostart {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 12%;
+}
+.Ancore-login {
+    justify-content: space-around;
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.Ancore-login > a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+.Buttom-comfirm {
+    background-color: red;
+    width: 20vh;
+    height: 4vh;
+    border: none;
+    cursor: pointer;
+}
+.Red-decoration {
+    text-decoration: dashed red;
+}
+.Green-border {
+    border: 3px solid green;
+}
+.Red-border {
+    border: 3px solid red;
+}
+.Modal-container {
+    display: none;
+    
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+.Modal {
+    width: 40%;
+    height: 20%;
+    background-color: white;
+    box-shadow: 10px 10px 10px  rgba(0,0,0,0.5);
+    display: flex
+}
+.Close {
+    position: absolute;
+    top: 10px;
+    right:  10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.Close:hover,
+.Close:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}

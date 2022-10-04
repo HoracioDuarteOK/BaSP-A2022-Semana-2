@@ -1,0 +1,33 @@
+footer{
+    display: flex;
+    background-color: red;
+    height: 10vh;
+    flex-direction: column;
+    padding-top: 5%;
+    justify-items: center;
+    margin-bottom: 0%;
+}
+.Footer1{
+    display: flex;
+}
+.Footer-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer > p {
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+}
+@media screen and (min-width: 1024px) {
+    footer {
+        width: 84%;
+        margin-left: 16%;
+        justify-content: space-around;
+        padding-bottom: 3%;
+    }
+    #Copy {
+        font-size: 24px;
+    }
+}

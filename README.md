@@ -33,7 +33,14 @@ Week 5
 ```     
         Introduce Js, exercises to practice
 ``` 
-
+Week 6
+```     
+        Introduce Js, Validations
+``` 
+Week 7
+```     
+        Introduce Js, Fetch & Modals
+``` 
 
 
 
