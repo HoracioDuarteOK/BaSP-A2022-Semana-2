@@ -9,6 +9,8 @@ var dni = document.getElementById("DNI");
 var lastName = document.getElementById("Last-name");
 var phoneNumber = document.getElementById("Phone-number");
 var country = document.getElementById("Country");
+var dob = document.getElementById("datebirthday");
+var dobInput = document.getElementById("dobInput")
 var repeatPassword = document.getElementById("Repeat-password");
 var emailInput = document.getElementById('emailInput');
 var passwordInput = document.getElementById('passwordInput');
@@ -81,7 +83,7 @@ adress.onblur = function() {
 if (adress.value === '') {
     adress.classList.add('Red-border');
     adressInput.innerHTML = 'Adress is required';
-}else if (adress.value.length < 3  || validLetters != true ) {
+}else if (adress.value.length < 5  || validLetters != true ) {
     adress.classList.add('Red-border');
     adressInput.innerHTML = 'Adress name must have 3 characters at least';
 } else {
@@ -187,7 +189,7 @@ phoneNumber.onblur = function() {
     if (phoneNumber.value === '') {
         phoneNumber.classList.add('Red-border');
         phoneNumberInput.innerHTML = 'Phone Number is required';
-    } else if (phoneNumber.value.length < 10 || validNumber != true ) {
+    } else if (phoneNumber.value.length != 10 || validNumber != true ) {
         phoneNumber.classList.add('Red-border');
         phoneNumberInput.innerHTML = 'Phone Number must have 10 numbers';
     } else {
@@ -199,7 +201,7 @@ phoneNumber.onfocus = function () {
 phoneNumber.classList.remove('Red-border');
 }
 
-// country 
+// Location 
 
 country.onblur = function() {
     for(i=0; i<country.value.length; i++){
@@ -212,16 +214,35 @@ if (country.value === '') {
     countryInput.innerHTML = 'Country is required';
 } else if (country.value.length < 5  || validLetters != true ) {
     country.classList.add('Red-border');
-    p.innerHTML = 'Country must have 5 characters at least';
+    countryInput.innerHTML = 'Country must have 5 characters at least';
 } else {
     country.classList.add('Green-border');
-    p.innerHTML = ' '
+    countryInput.innerHTML = ' '
 }
 country.onfocus = function () {
     country.classList.remove('Red-border');
 }
 }
-
+// Date of Birdhay
+dob.onblur = function() {
+    var numbers = "0123456789";
+    var validNumber = false;
+    for(i=0; i<dob.value.length; i++){
+        if (numbers.indexOf(dob.value.charAt(i),0)!=-1){
+            validNumber = true;
+        }
+    }
+    if (dob.value === '') {
+        dob.classList.add('Red-border');
+        dobInput.innerHTML = 'Birthday is required';
+    } else {
+        dob.classList.add('Green-border');
+        dobInput.innerHTML = ' '
+    }
+    }
+dobInput.onfocus = function () {
+dob.classList.remove('Red-border');
+}
 //Repeat password
 
 repeatPassword.onblur = function() {
@@ -260,4 +281,67 @@ button2.onclick = function() {
         alert('Register Error')
     }
 }
+// Week 7
+var modalConteiner2 = document.getElementById("modalSus")
+var modalTitle2 = document.getElementById("modalTitle")
+var modalData = document.querySelector("modalContent > li")
+var closeBtn2 = document.getElementById("closeBtn2")
+//MODAL
+function modalSuccessfull2(userInfo){
+    var jsonToString = JSON.stringify(userInfo);
+    modalConteiner2.style.display = "block"
+    modalTitle2.innerHTML = "Successful Access" + "Username"+ userName.value + "Password" + password.value
+    modalData.innerHTML = jsonToString;
+    localStorage.setItem('firstname', firstName.value);
+    localStorage.setItem('email', email.value);
+    localStorage.setItem('adress', adress.value );
+    localStorage.setItem('dni', dni.value );
+    localStorage.setItem('password', password.value );
+    localStorage.setItem('lastname', lastName.value );
+    localStorage.setItem('phonenumber', phoneNumber.value );
+    localStorage.setItem('country', country.value );
+    localStorage.setItem('repeatpassword', repeatPassword.value );
+    localStorage.setItem('dob', dob.value );
+}
+function errorModal2(errorInfo){
+    var jsonToString = JSON.stringify(errorInfo);
+    modalConteiner2.style.display = "flex";
+    modalTitle2.innerHTML = "Error Access"
+    modalData.innerHTML =jsonToString; 
+}
+//FETCH
+button2.addEventListener("click" , function (e) {
+    modalConteiner2.style.display = 'flex'
+    var basUrl2 ='https://basp-m2022-api-rest-server.herokuapp.com/signup?'+
+    'name='+firstName.value
+    +'&email='+email.value
+    +'&address='+adress.value
+    +'&dni='+dni.value
+    +'&password='+password.value
+    +'&lastName='+lastName.value
+    +'&phone='+phoneNumber.value
+    +'&city='+country.value
+    +'&dob='+dob
+    
+
+    fetch(basUrl2)
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(data) {
+            if (data.success) {
+                modalSuccessfull2(data)
+        } else {
+            var errormsg = data.errors[0].msg
+            errorModal2(errormsg)
+        }
+    })
+    .catch(function(error) {
+        console.log(error)
+    })
+    e.preventDefault();
+});
+closeBtn2.addEventListener("click", function () {
+    modalConteiner2.style.display = "none"
+})
 }

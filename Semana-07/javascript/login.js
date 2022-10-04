@@ -82,10 +82,10 @@ var closeBtn = document.getElementById("closeBtn")
 function modalSuccessfull(userInfo){
     var jsonToString = JSON.stringify(userInfo);
     modalConteiner.style.display = "block"
-    modalTitle.innerHTML = "Successful Access"
+    modalTitle.innerHTML = "Successful Access" + "Username"+ userName.value + "Password" + password.value
     modalData.innerHTML = jsonToString;
     localStorage.setItem('userpassword', password.value);
-    localStorage.setItem('username', userName.value )
+    localStorage.setItem('username', userName.value );
 }
 function errorModal(errorInfo){
     var jsonToString = JSON.stringify(errorInfo);
@@ -94,15 +94,15 @@ function errorModal(errorInfo){
     modalData.innerHTML =jsonToString; 
 }
 //FETCH
-button.addEventListener("submit" , function (e) {
-    modalConteiner.style.display 
-    var basUrl ='https://basp-m2022-api-rest-server.herokuapp.com/login?email='+userName+'&password='+password;
+button.addEventListener("click" , function (e) {
+    modalConteiner.style.display = 'block'
+    var basUrl ='https://basp-m2022-api-rest-server.herokuapp.com/login?email='+userName.value+'&password='+password.value;
     fetch(basUrl)
         .then(function(response) {
             return response.json();
         })
         .then(function(data) {
-            if (data.success == true) {
+            if (data.success) {
                 modalSuccessfull(data)
         } else {
             var errormsg = data.errors[0].msg
