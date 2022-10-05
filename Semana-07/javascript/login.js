@@ -12,7 +12,6 @@ var usernameP = document.getElementById('usernameP');
 var passwordP = document.getElementById('passwordP');
 
 //Email
-userName.setAttribute("Value" , "Username");
 userName.onblur = function() {
     if (userName.value === '') {
         userName.classList.add('Red-border');
@@ -29,15 +28,10 @@ userName.onfocus = function () {
     userName.classList.remove('Red-border');
 }
 
-
 // password
-
-password.setAttribute("value", "Password");
-
 password.onblur = function() {
     var numbers = "0123456789";
     var validNumber = false;
-
     for(i=0; i<password.value.length; i++){
         if (numbers.indexOf(password.value.charAt(i),0)!=-1){
             validNumber = true;
@@ -73,37 +67,40 @@ button.onclick = function() {
         alert('Login Error: wrong username or password')
     }
 }
+
 // Week 7
 var modalConteiner = document.getElementById("modalSus")
 var modalTitle = document.getElementById("modalTitle")
-var modalData = document.querySelector("modalContent > li")
+var modalData = document.getElementById("list1")
 var closeBtn = document.getElementById("closeBtn")
+
 //MODAL
 function modalSuccessfull(userInfo){
     var jsonToString = JSON.stringify(userInfo);
-    modalConteiner.style.display = "block"
+    modalConteiner.style.display = "flex"
     modalTitle.innerHTML = "Successful Access" + "Username"+ userName.value + "Password" + password.value
-    modalData.innerHTML = jsonToString;
+    modalData.innerHTML = `<li>${jsonToString}</li>`;
     localStorage.setItem('userpassword', password.value);
     localStorage.setItem('username', userName.value );
 }
 function errorModal(errorInfo){
     var jsonToString = JSON.stringify(errorInfo);
-    modalConteiner.style.display = "block";
+    modalConteiner.style.display = "flex";
     modalTitle.innerHTML = "Error Access"
-    modalData.innerHTML =jsonToString; 
+    modalData.innerHTML = `<li>${jsonToString}</li>` ; 
 }
+
 //FETCH
 button.addEventListener("click" , function (e) {
     modalConteiner.style.display = 'block'
     var basUrl ='https://basp-m2022-api-rest-server.herokuapp.com/login?email='+userName.value+'&password='+password.value;
     fetch(basUrl)
-        .then(function(response) {
-            return response.json();
-        })
-        .then(function(data) {
-            if (data.success) {
-                modalSuccessfull(data)
+    .then(function(response) {
+        return response.json();
+    })
+    .then(function(data) {
+        if (data.success) {
+            modalSuccessfull(data)
         } else {
             var errormsg = data.errors[0].msg
             errorModal(errormsg)
@@ -117,5 +114,7 @@ button.addEventListener("click" , function (e) {
 closeBtn.addEventListener("click", function () {
     modalConteiner.style.display = "none"
 })
+password.value = localStorage.getItem('userpassword')
+userName.value = localStorage.getItem('username')
 }
 
